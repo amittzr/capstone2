@@ -156,6 +156,15 @@ a:hover {
     gap: 10px; /* Optional: Add space between grid items */
 }
 
+.seperateDonuts{
+    width: 20px;
+}
+
+.seperateDonutsDiv{
+    margin: 90px;
+}
+
+
 /* .left-column {
     grid-area: left-column;
     justify-self: center;
@@ -228,4 +237,5 @@ a:hover {
     .item{
         margin-right: 0;
     }
+
   }
