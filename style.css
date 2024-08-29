@@ -119,7 +119,7 @@ a:hover {
 }
 
 .intro{
-    width: 30%;
+    width: 60%;
     margin: auto;
 }
 
@@ -211,4 +211,21 @@ a:hover {
     background-image: -o-linear-gradient(top, #FFBBA6, #FFBBA6);
     background-image: linear-gradient(to bottom, #FFBBA6, #fa987a);
     text-decoration: none;
+  }
+
+  @media (max-width:780px){
+    .context{
+       width: 100%;
+       text-align: center;
+       padding: 30px ;
+    }
+
+    .container{
+        display: inline;
+        gap: 3rem;
+    }
+
+    .item{
+        margin-right: 0;
+    }
   }
